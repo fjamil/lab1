@@ -11,22 +11,22 @@ public class lab1 {
 		Scanner userInputScanner = new Scanner(System.in);
 		
 		System.out.print("How many years will you work?");
-		double yearswork = userInputScanner.nextDouble();
+		double workyears = userInputScanner.nextDouble();
 		
 		System.out.print("What is the annual return?");
-		double wrate = userInputScanner.nextDouble();
+		double ratew = userInputScanner.nextDouble();
 		
 		System.out.print("What is your required income?");
-		double incomereq = userInputScanner.nextDouble();
+		double reqincome = userInputScanner.nextDouble();
 		
 		System.out.print("What is the planned SSI return?");
-		double ssireturn = userInputScanner.nextDouble();
+		double ssi = userInputScanner.nextDouble();
 		
-		double workyears = 40.0;
-		double ratew = .07;
-		double reqincome = 10000.0;
+		//double workyears = 40.0;
+		//double ratew = .07;
+		//double reqincome = 10000.0;
 		double x = 1454485.55; // We have this to compare actual to our result
-		double ssi = 2642.0;
+		//double ssi = 2642.0;
 		
 		double income = reqincome - ssi; // Present Value
 		
